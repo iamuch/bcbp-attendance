@@ -61,28 +61,28 @@
 						<li><a href="<?php echo $this->params->webroot?>actionGroups/add"><i class="fa fa-plus"></i> Add New Action Group</a></li>
 					</ul>
 				</li>
-				<li class="dropdown <?php echo $this->params->params['controller'] == 'activity' ? 'active' : ''?>">
+				<li class="dropdown <?php echo $this->params->params['controller'] == 'activities' ? 'active' : ''?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa"></i> Activity <b
 							class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo $this->params->webroot?>activity"><i class="fa fa-list"></i> List</a></li>
-						<li><a href="<?php echo $this->params->webroot?>activity/add"><i class="fa fa-plus"></i> Add New Activity</a></li>
+						<li><a href="<?php echo $this->params->webroot?>activities"><i class="fa fa-list"></i> List</a></li>
+						<li><a href="<?php echo $this->params->webroot?>activities/add"><i class="fa fa-plus"></i> Add New Activity</a></li>
 					</ul>
 				</li>
-				<li class="dropdown <?php echo $this->params->params['controller'] == 'category' ? 'active' : ''?>">
+				<li class="dropdown <?php echo $this->params->params['controller'] == 'categories' ? 'active' : ''?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa"></i> Category <b
 							class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo $this->params->webroot?>category"><i class="fa fa-list"></i> List</a></li>
-						<li><a href="<?php echo $this->params->webroot?>category/add"><i class="fa fa-plus"></i> Add New Category</a></li>
+						<li><a href="<?php echo $this->params->webroot?>categories"><i class="fa fa-list"></i> List</a></li>
+						<li><a href="<?php echo $this->params->webroot?>categories/add"><i class="fa fa-plus"></i> Add New Category</a></li>
 					</ul>
 				</li>
-				<li class="dropdown <?php echo $this->params->params['controller'] == 'service' ? 'active' : ''?>">
+				<li class="dropdown <?php echo $this->params->params['controller'] == 'services' ? 'active' : ''?>">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa"></i> Service <b
 							class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo $this->params->webroot?>service"><i class="fa fa-list"></i> List</a></li>
-						<li><a href="<?php echo $this->params->webroot?>service/add"><i class="fa fa-plus"></i> Add New Service</a></li>
+						<li><a href="<?php echo $this->params->webroot?>services"><i class="fa fa-list"></i> List</a></li>
+						<li><a href="<?php echo $this->params->webroot?>services/add"><i class="fa fa-plus"></i> Add New Service</a></li>
 					</ul>
 				</li>
 <!--				<li><a href="tables.html"><i class="fa fa-list"></i> Activity</a></li>-->
